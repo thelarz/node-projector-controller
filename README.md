@@ -1,2 +1,2 @@
 # node-projector-controller
-A liviing library to control projectors via the serial port
+A living library to control projectors via the serial port
