@@ -1,5 +1,6 @@
 # node-projector-controller
-A living library to control projectors via the serial port or the ethernet port
+
+An in-progress group of sample node.js programs to control video projectors via the serial port or the ethernet port.
 
 Dependencies for serial.js:
 
