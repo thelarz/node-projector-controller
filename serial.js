@@ -15,15 +15,16 @@ var VIEWSONIC = {
     off: [0x06, 0x14, 0x00, 0x04, 0x00, 0x34, 0x11, 0x01, 0x00, 0x5E]
 }
 
-
-var comPort = "COM4";
+var available = [];
+var comPort = "COM7";
 var device = NEC;
 var command = device.off;
 
 // Check for attached serial ports, not need here but useful
 SerialPort.list((err, ports) => {
     ports.forEach((port) => {
-        console.log(port.portName);
+        console.log(port.comName);
+        available.push(port.comName);
     });
 });
 

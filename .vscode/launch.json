@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}\\socket.js"
+            "program": "${workspaceRoot}\\serial.js"
         },
         {
             "type": "node",
